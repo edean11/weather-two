@@ -1,0 +1,36 @@
+doctype html
+html(lang="en-US")
+	head
+	meta(charset="utf-8")
+	meta(http-equiv="X-UA-Compatible", content="IE=edge")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Weather App
+	link(rel="stylesheet" href="css/normalize.css")
+	link(rel="stylesheet" href="css/foundation.css")
+	link(rel="stylesheet" href="css/main.css")
+body
+	.row.form
+		.small-12.large-6.large-centered.columns
+			input(type="text", name="zipCode", placeholder="Enter your zip code" id="zipCode").submitZip
+			button#button.
+				Submit
+			button#location.
+				+
+	section.content
+		.row
+			.large-6.large-centered.columns.placeName
+				h1#locationContainer
+		.large-12.columns
+			.small-12.large-2.large-offset-2.columns.panel
+				ul.result1
+			.small-12.large-2.columns.panel
+				ul.result2
+			.small-12.large-2.columns.panel
+				ul.result3
+			.small-12.large-2.large-pull-2.columns.panel
+				ul.result4
+
+		script(src="js/lodash.min.js")
+		script(src="js/main.js")
+
+

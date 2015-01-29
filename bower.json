@@ -1,0 +1,23 @@
+{
+  "name": "weather-two",
+  "version": "0.0.0",
+  "homepage": "https://github.com/edean11/weather-two",
+  "authors": [
+    "thedean11 <edean1010@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.0.0"
+  },
+  "devDependencies": {
+    "foundation": "~5.5.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "weather-two",
+  "version": "1.0.0",
+  "description": "weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edean11/weather-two.git"
+  },
+  "author": "Ed Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edean11/weather-two/issues"
+  },
+  "homepage": "https://github.com/edean11/weather-two",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jade": "^0.14.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.17.0",
+    "load-grunt-tasks": "^2.0.0"
+  }
+}
